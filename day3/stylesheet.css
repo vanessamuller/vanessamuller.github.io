@@ -1,0 +1,33 @@
+.nav-text{
+  text-align:center;
+}
+
+ul.nav.navbar-nav{
+  display: inline-block;
+  float: none;
+}
+
+.background {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+  clear: both;
+}
+
+video{
+  object-fit:cover;
+  width: 100%;
+  height:30%;
+}
+
+.navbar-default{
+  background-color: white;
+  opacity:.5;
+  border: none;
+}
