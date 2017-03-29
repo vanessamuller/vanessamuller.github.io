@@ -51,6 +51,9 @@ video{
 }
 
 /*about*/
+#About{
+  padding: 1em;
+}
 
 p{
   text-align:justify;
@@ -66,4 +69,14 @@ p{
   height: 30em;
   margin: 0 auto;
   margin-top:-1em;
+}
+
+/*facts*/
+#Facts{
+  background-color:#e2f1f5;
+  padding: 1em;
+}
+
+ul{
+  margin-top:7em;
 }
