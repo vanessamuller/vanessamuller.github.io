@@ -73,7 +73,7 @@ p{
 
 /*facts*/
 #Facts{
-  background-color:#e2f1f5;
+  background-image: url(img/pattern2.jpeg);
   padding: 1em;
 }
 
@@ -84,4 +84,11 @@ ul{
 /*Visit*/
 #Visit{
   padding:1em;
+}
+
+/*banner*/
+.banner{
+  background-image: url(img/pattern2.jpeg);
+  height:15em;
+  padding:3em;
 }
