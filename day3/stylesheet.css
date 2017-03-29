@@ -7,6 +7,13 @@ body{
   text-align:center;
 }
 
+li.list:link, li.list:visited, li.list:hover, li.list:active{
+  color:black;
+}
+.list{
+  padding: 0 1em;
+  font-size:1.5em;
+}
 ul.nav.navbar-nav{
   display: inline-block;
   float: none;
@@ -80,7 +87,7 @@ p{
 
 /*facts*/
 #Facts{
-  background-color:#dcf6dc;
+  background-color:rgba(220,246,220,.3);
   padding: 1em 7em;
 }
 
@@ -95,7 +102,7 @@ ul{
 
 /*banner*/
 .banner{
-  background-color:#dcf6dc;
+  background-color:rgba(220,246,220,.3);
   height:15em;
   padding:3em;
 }
