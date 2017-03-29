@@ -23,11 +23,24 @@ ul.nav.navbar-nav{
 video{
   object-fit:cover;
   width: 100%;
-  height:30%;
+  /*height:30%;*/
 }
 
+.vid_container{
+  height:30em;
+  overflow:hidden;
+}
 .navbar-default{
-  background-color: white;
-  opacity:.5;
+  background-color: rgba(255,255,255,.7);
+  /*opacity:.5;*/
   border: none;
+}
+
+.title{
+  position: absolute;
+  top:0px;
+  padding: 14em;
+  color: #fff;
+  width:100%;
+  height:30em;
 }
