@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+/*navbar*/
 .nav-text{
   text-align:center;
 }
@@ -7,6 +11,12 @@ ul.nav.navbar-nav{
   float: none;
 }
 
+.navbar-default{
+  background-color: rgba(255,255,255,.7);
+  /*opacity:.5;*/
+  border: none;
+}
+/*header*/
 .background {
     position: absolute;
     top:0;
@@ -30,11 +40,6 @@ video{
   height:30em;
   overflow:hidden;
 }
-.navbar-default{
-  background-color: rgba(255,255,255,.7);
-  /*opacity:.5;*/
-  border: none;
-}
 
 .title{
   position: absolute;
@@ -43,4 +48,22 @@ video{
   color: #fff;
   width:100%;
   height:30em;
+}
+
+/*about*/
+
+p{
+  text-align:justify;
+  padding-bottom: 1em;
+}
+
+.about-title{
+  padding: 1em 0;
+}
+
+.about-pic{
+  overflow:hidden;
+  height: 30em;
+  margin: 0 auto;
+  margin-top:-1em;
 }
