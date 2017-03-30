@@ -1,6 +1,11 @@
 body{
   background-image: url(img/bb01.jpg);
   overflow:hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3{
+  font-size:24px;
 }
 
 .out{
@@ -11,6 +16,14 @@ body{
   background: rgba(255, 255, 255, 0.6);
   padding:1em;
   height:70vh;
+  border-radius:2%;
+}
+
+.site-b{
+  background: rgba(255, 255, 255, 0.6);
+  padding:1em;
+  height:80vh;
+  border-radius:2%;
 }
 
 .logo{
@@ -23,10 +36,18 @@ body{
 }
 
 .car{
-  height:40vh;
-  background: radial-gradient(#E5CDB0, #7C452D, #5D341A)
+  height:50vh;
+  background: radial-gradient(#E5CDB0, #7C452D, #5D341A);
+  border-radius:2%;;
 }
 
+a.right.carousel-control{
+  border-radius:4%;
+}
+
+a.left.carousel-control{
+  border-radius:4%;
+}
 .car-text{
   /*padding-bottom:10em;*/
 }
@@ -46,4 +67,12 @@ img.img-responsive.car-img{
 .carousel-caption.car-text{
   bottom:-20px;
   padding-left:15em;
+}
+
+.story-text{
+  padding:0 5em;
+}
+
+.story-img{
+  height:7em;
 }
