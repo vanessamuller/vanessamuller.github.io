@@ -5,6 +5,7 @@ body{
 
 .out{
   padding:4em;
+  background:transparent;
 }
 .site{
   background: rgba(255, 255, 255, 0.6);
@@ -19,4 +20,30 @@ body{
 
 .logo-img{
   height:5em;
+}
+
+.car{
+  height:40vh;
+  background: radial-gradient(#E5CDB0, #7C452D, #5D341A)
+}
+
+.car-text{
+  /*padding-bottom:10em;*/
+}
+
+.car-img{
+  height:5em;
+  margin-right:5em;
+}
+
+img.img-responsive.car-img{
+  height:35vh;
+  padding-left:25em;
+  padding-top:2em;
+  padding-bottom:0;
+}
+
+.carousel-caption.car-text{
+  bottom:-20px;
+  padding-left:15em;
 }
