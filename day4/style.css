@@ -13,14 +13,14 @@ h3{
   background:transparent;
 }
 .site{
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   padding:1em;
-  height:70vh;
+  height:75vh;
   border-radius:2%;
 }
 
 .site-b{
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   padding:1em;
   height:80vh;
   border-radius:2%;
@@ -75,4 +75,8 @@ img.img-responsive.car-img{
 
 .story-img{
   height:7em;
+}
+.home-pic{
+  height:50vh;
+  padding-top:2em;
 }
