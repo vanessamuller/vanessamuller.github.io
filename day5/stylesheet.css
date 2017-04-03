@@ -1,0 +1,35 @@
+.full-site{
+  display:flex;
+}
+
+.smoothies{
+  display:flex;
+  flex-direction:column;
+  flex: 0 1 25%;
+}
+
+.fresh_juices{
+  display:flex;
+  flex-direction:column;
+  flex: 0 1 25%;
+}
+
+.smoothies_sizes{
+  display:flex;
+  justify-content:flex-end;
+}
+
+
+.smoothies_prices{
+  display:flex;
+  justify-content:flex-end;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+}
+
+h1{
+  text-align:center;
+}
