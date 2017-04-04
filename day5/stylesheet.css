@@ -78,6 +78,11 @@ li{
   justify-content: space-between;
 }
 
+.shots-li{
+  flex: 0 0 46%;
+  padding-right: .5em;
+}
+
 .greens{
   display: flex;
   justify-content: space-between;
@@ -190,4 +195,8 @@ div#cold-stand{
 
 #oz16{
   margin: 0;
+}
+
+#extra{
+  font-size: 12px;
 }
