@@ -184,6 +184,10 @@ p{
   font-weight:normal;
 }
 
-@media only screen (max-width: 1100px){
+div#cold-stand{
+  margin-top: 1.2em;
+}
 
+#oz16{
+  margin: 0;
 }
