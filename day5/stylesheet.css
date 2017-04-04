@@ -1,17 +1,40 @@
+body{
+  background-color: rgba(246,246,192,.5);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(246,246,192,.6) 35px, rgba(196,196,153,.1) 70px);
+  color:#75A55B;
+}
 .full-site{
   display:flex;
+  flex-wrap:wrap;
+  padding-right:1em;
 }
 
 .smoothies{
   display:flex;
   flex-direction:column;
-  flex: 0 1 25%;
+  flex: 0 1 22%;
+  margin: 0 1em;
 }
 
 .fresh_juices{
   display:flex;
   flex-direction:column;
-  flex: 0 1 25%;
+  flex: 0 1 22%;
+  margin: 0 1em;
+}
+
+.cold_pressed_juices{
+  display:flex;
+  flex-direction:column;
+  flex: 0 1 22%;
+  margin: 0 1em;
+}
+
+.create_your_own{
+  display:flex;
+  flex-direction:column;
+  flex: 0 1 22%;
+  margin: 0 1em;
 }
 
 .smoothies_sizes{
@@ -30,6 +53,125 @@ table{
   text-align: center;
 }
 
-h1{
+h1, h2, h3{
   text-align:center;
+}
+
+h5, p{
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  padding-left: 1em;
+  margin-top: 0;
+}
+
+li{
+  padding-bottom: 1em;
+}
+
+.shots{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.greens{
+  display: flex;
+  justify-content: space-between;
+}
+
+.greens-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .5em;
+}
+
+h4{
+  margin: 0;
+text-align: -webkit-left;
+padding-left: 1em;
+}
+
+.bases-top{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bases{
+  padding-bottom: 0em;
+  flex: 0 0 50%;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-top{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items{
+  padding-bottom: 0em;
+  flex: 0 0 25%;
+}
+
+.kids{
+  margin-top:0;
+}
+
+.proteins{
+  display: flex;
+  flex-wrap: wrap;
+}
+.smoothie{
+  padding-bottom: 0em;
+  flex: 0 0 33.33%;
+}
+
+
+.smoothies-text{
+  color:#008EC1;
+}
+
+#smooth-stand{
+  background-color:#008EC1;
+}
+
+#juice-stand{
+  background-color: #F17321;
+}
+
+.title-text{
+  margin:0;
+  padding-top: .3em;
+  color:rgb(249,249,217);
+}
+
+.titles{
+  height:2em;
+  margin: 1em 0;
+}
+
+.juices-text{
+  color: #F17321;
+}
+
+#cold-stand{
+  background-color:#FA9625;
+}
+
+.cold-text{
+  color:#FA9625;
+}
+
+.create-stand{
+  background-color: #B8208C;
+}
+
+.create-text{
+  color: #B8208C;
 }
