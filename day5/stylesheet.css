@@ -6,7 +6,7 @@ body{
 }
 .full-site{
   display:flex;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
   padding-right:3em;
 }
 
@@ -199,4 +199,60 @@ div#cold-stand{
 
 .extra{
   font-size: 12px;
+}
+
+@media screen and (max-width:705px){
+  .smoothies{
+    flex: 0 0 100%;
+  }
+
+  .fresh_juices{
+    flex: 0 0 100%;
+  }
+
+  .cold_pressed_juices{
+    flex: 0 0 100%;
+  }
+
+  .create_your_own{
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (min-width:705px) and (max-width:1034px){
+  .smoothies{
+    flex: 0 0 45%;
+  }
+
+  .fresh_juices{
+    flex: 0 0 45%;
+  }
+
+  .cold_pressed_juices{
+    flex: 0 0 45%;
+  }
+
+  .create_your_own{
+    flex: 0 0 45%;
+  }
+}
+
+@media screen and (min-width:1035px) and (max-width:1130px){
+  .smoothies{
+    flex: 0 0 30%;
+  }
+
+  .fresh_juices{
+    flex: 0 0 30%;
+  }
+
+  .cold_pressed_juices{
+    flex: 0 0 30%;
+  }
+
+  .create_your_own{
+    flex: 0 0 33%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
