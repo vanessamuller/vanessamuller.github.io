@@ -1,0 +1,68 @@
+.container-fluid{
+  width:1000px;
+  margin: 0 auto;
+}
+
+.header{
+  background-image: url(img/little_prince.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+}
+
+.nav-text{
+  display: flex;
+  justify-content: center;
+}
+
+.about{
+  display: flex;
+}
+
+.about-img{
+  height: 250px;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.img1{
+  width:20%;
+}
+
+.img2{
+  width:20%;
+
+}
+
+.text{
+  width: 80%;
+  padding: 2em;
+}
+
+p{
+  text-align: justify;
+}
+
+.author{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.author-title{
+  width:100%;
+}
+
+.author-text{
+  width:70%;
+  padding: 2em;
+  align-self: center;
+}
+
+.author-img{
+  width:30%;
+}
+
+h2{
+  padding-bottom: 30px;
+}
