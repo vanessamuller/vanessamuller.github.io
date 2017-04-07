@@ -104,3 +104,60 @@ h2{
     width: auto;
   }
 }
+
+@media screen and (max-width:800px){
+  .about{
+    display: flex;
+    margin: 2em 0;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .img1{
+    width:50%;
+    order: 1;
+  }
+
+  .img2{
+    width:50%;
+    order: 2;
+  }
+
+  .text{
+    width: 80%;
+    padding: 2em;
+    order:2;
+  }
+
+  .author-text{
+    width:80%;
+    padding: 2em;
+    align-self: center;
+    order:2;
+  }
+
+  .author-img2{
+    display: inherit;
+    width:50%;
+    order:1;
+    align-self: center;
+    overflow: hidden;
+  }
+
+  .author-img{
+    display:none;
+  }
+
+  .author{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .books-item{
+    width:50%;
+    text-align:center;
+    margin-bottom:2em;
+    overflow:hidden;
+  }
+
+}
