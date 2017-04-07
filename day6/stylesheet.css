@@ -66,6 +66,10 @@ p{
   width:30%;
 }
 
+.author-img2{
+  display:none;
+}
+
 h2{
   padding-bottom: 30px;
 }
@@ -78,6 +82,7 @@ h2{
   display:flex;
   flex-wrap:wrap;
   list-style: none;
+  padding: 0 2em;
 }
 
 .books-img{
@@ -94,6 +99,8 @@ h2{
   text-align:center;
 }
 
-li{
-
+@media screen and (max-width:1000px){
+  .container-fluid{
+    width: auto;
+  }
 }
