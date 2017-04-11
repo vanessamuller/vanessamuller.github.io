@@ -59,6 +59,8 @@ footer{
   justify-content: space-around;
 }
 
+
+
 @media screen and (min-width:750px){
   .moana{
     margin-top: 20%;
@@ -76,7 +78,7 @@ footer{
 
 @media screen and (min-width:850px){
   .moana{
-    margin-top: 10%;
+    /*margin-top: 10%;*/
     width:90vw;
   }
 
@@ -88,4 +90,10 @@ footer{
     height:40em;
   }
 }
+}
+
+@media screen and (min-width: 950px){
+  .moana{
+    margin-top: 2%;
+  }
 }
