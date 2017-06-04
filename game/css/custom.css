@@ -1,0 +1,64 @@
+.navbar-brand > img{
+  display: inherit;
+    height: 180%;
+    margin-top: -4%;
+    width: 32%;
+}
+
+header{
+  background: url(../img/bg-pattern.png),linear-gradient(to left,#2381EB,#1D46B5);
+}
+
+img#full-mobile{
+  height:100%;
+}
+
+img#top-mobile{
+  height: 100%;
+}
+
+@media (max-width:300px) {
+  a.navbar-brand.page-scroll{
+    width:65%;
+  }
+}
+
+section.cta .cta-content h2{
+  max-width:80%;
+}
+
+section.cta{
+  background-image: url(../img/challenges_piezas/02.png);
+  background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+.cta-content.col-md-12{
+  padding-top:40px;
+}
+
+#about{
+  padding: 150px 0;
+
+}
+
+.about-p{
+  color:white;
+}
+
+.bg-primary{
+  background:#E6A74A;
+}
+
+
+section.features .feature-item i{
+  background: linear-gradient(to left,#E11A21,#B91817);
+  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@media (min-width: 768px)
+{
+section.cta .cta-content h2{
+  font-size:60px;
+}
+}
